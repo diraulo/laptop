@@ -195,6 +195,6 @@ else
 fi
 
 fancy_echo "Installing your personal additions from ~/.laptop.local ..."
-  if [ -f ~/.laptop.local ]; then
-    . ~/.laptop.local
+  if [ -f "$HOME/.laptop.local" ]; then
+    . "$HOME/.laptop.local"
   fi
